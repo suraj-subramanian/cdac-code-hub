@@ -12,13 +12,13 @@ private:
     int _size;
 
 public:
-    Stack(int);
-    void push(int);
-    void pop();
-    int top();
-    bool isEmpty();
-    bool isFull();
-    ~Stack();
+    Stack(int);     // Constructor to create stack of give size
+    void push(int); // Push data into stack
+    void pop();     // Pop data from stack
+    int top();      // Get the data on top of stack
+    bool isEmpty(); // check if stack is empty
+    bool isFull();  // check if stack is full
+    ~Stack();       // Destructor
 };
 
 Stack::Stack(int size)
@@ -80,11 +80,11 @@ int main()
     s->push(50);
     s->push(60);
 
-    cout<<s->top()<<endl;
+    cout << s->top() << endl;
 
     s->pop();
 
-    cout<<s->top()<<endl;
+    cout << s->top() << endl;
 
     s->pop();
     s->pop();
