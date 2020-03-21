@@ -13,3 +13,4 @@ This repository is a work in progress which will contain all the common programm
 6. Find the missing number in an array of 1 to n elements [See Code](https://github.com/suraj-subramanian/cdac-code-hub/blob/master/problems/missing_number.cpp)
 ### Data Structures
 1. Stack data structure using array. [See code](https://github.com/suraj-subramanian/cdac-code-hub/blob/master/data-structures/stack.cpp)
+2. Find duplicate parenthesis in an expression Using Stack.
