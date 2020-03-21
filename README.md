@@ -15,4 +15,5 @@ This repository is a work in progress which will contain all the common programm
 1. Stack data structure using array. [See code](https://github.com/suraj-subramanian/cdac-code-hub/blob/master/data-structures/stack.cpp)
 2. Find duplicate parenthesis in an expression Using Stack. [See code](https://github.com/suraj-subramanian/cdac-code-hub/blob/master/data-structures/Find%20duplicate%20parenthesis%20in%20an%20expression.cpp)
 ### Sorting
-1. Quick Sort. [See code]([See code](https://github.com/suraj-subramanian/cdac-code-hub/blob/master/sorting/quick_sort.cpp)
+1. Quick Sort. [See code](https://github.com/suraj-subramanian/cdac-code-hub/blob/master/sorting/quick_sort.cpp)
+2. Quick Sort (Multithreaded). [See code](https://github.com/suraj-subramanian/cdac-code-hub/blob/master/sorting/quick_sort_multithreaded.cpp)

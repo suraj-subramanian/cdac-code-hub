@@ -1,6 +1,7 @@
 /*
     Suraj Subramanian
     Program to implement Quick Sort Algorithm using multithreading
+    run "g++ quick_sort_multithreaded.cpp -std=c++11 -pthread" to compile
 */
 
 #include <iostream>
@@ -31,6 +32,8 @@ void quick_sort(int arr[], int start, int end)
 
         thread th1(quick_sort, arr, start, partition_index - 1);
         thread th2(quick_sort, arr, partition_index + 1, end);
+        th1.join();
+        th2.join();
     }
 }
 
